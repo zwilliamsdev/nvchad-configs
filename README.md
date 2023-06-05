@@ -1,3 +1,11 @@
-# Example_config
+# My config for NvChad
 
-This can be used as an example custom config for NvChad, this branch is a minimal one. Do check the feature_full branch if you need all the ease in your config.
+If you want to use this you must install NvChad first. Once NvChad is installed pulled this project into your nvim/lua/custom directory.
+
+After you have pulled the project open nvim and type :MasonInstallAll to install all the language server goodies.
+
+## Configured Languages
+- [X] Golang
+- [X] Python
+- [] Rust **Todo**
+- [] PHP **Todo**
