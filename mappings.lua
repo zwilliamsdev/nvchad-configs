@@ -26,6 +26,23 @@ M.dap = {
   },
 }
 
+M.dap_python = {
+  n = {
+    ["<leader>dpr"] = {
+      "<cmd> lua require('dap-python').test_method()<CR>",
+      "Debug current class",
+    },
+    ["<leader>dcm"] = {
+      "<cmd> lua require('dap-python').test_class()<CR>",
+      "Debug current method",
+    },
+    ["<leader>dct"] = {
+      "<cmd> lua require('dap-python').test_last()<CR>",
+      "Debug last test",
+    },
+  },
+}
+
 M.dap_go = {
   n = {
     ["<leader>dgt"] = {

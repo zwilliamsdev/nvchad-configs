@@ -14,8 +14,12 @@ for _, lsp in ipairs(servers) do
   }
 end
 
--- 
--- lspconfig.pyright.setup { blabla}
+-- Python
+lspconfig.pyright.setup {
+  filetypes = { "python" },
+}
+
+-- Go
 lspconfig.gopls.setup {
   cmd = { "gopls" },
   filetypes = { "go", "gomod", "gowork", "gotmpl" },
@@ -26,7 +30,7 @@ lspconfig.gopls.setup {
       usePlaceholders = true,
       analyses = {
         unusedparams = true,
-      }
-    }
-  }
+      },
+    },
+  },
 }

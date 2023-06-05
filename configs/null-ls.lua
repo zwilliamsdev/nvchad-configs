@@ -19,6 +19,11 @@ local sources = {
   -- cpp
   b.formatting.clang_format,
 
+  -- python
+  b.formatting.black,
+  b.diagnostics.mypy,
+  b.diagnostics.ruff,
+
   -- golang
   b.formatting.gofumpt,
   b.formatting.goimports_reviser,

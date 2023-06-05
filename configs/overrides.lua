@@ -39,6 +39,13 @@ M.mason = {
     "clangd",
     "clang-format",
 
+    -- Python
+    "pyright",
+    "black",
+    "mypy",
+    "ruff",
+    "debugpy",
+
     -- Golang
     "gopls",
     "golines",
